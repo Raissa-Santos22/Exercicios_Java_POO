@@ -29,14 +29,11 @@ public class MetodosComRetornoEParametros {
     }
     public int maior(int n1, int n2){
         if(n1 > n2){
-            System.out.println("O numero 1 é o maior");
             return n1;
         }else{
-            System.out.println("O numero 2 é o maior");
             return n2;
         }
     }
-
     public static void main(String[] args) {
         MetodosComRetornoEParametros metodos = new MetodosComRetornoEParametros();
         System.out.println("A soma dos numeros é igual a : " + metodos.somar(3,4));
@@ -55,7 +52,7 @@ public class MetodosComRetornoEParametros {
         }
         System.out.println("O valor total após o acrescimo foi de " + metodos.Acrescimo(100, 30) + " R$");
         System.out.println("O valor do fatorial é " + metodos.Fatorial(9));
-        System.out.println(metodos.maior(3,4));
+        System.out.println("O numero maior é : " + metodos.maior(3,4));
     }
 
 }
