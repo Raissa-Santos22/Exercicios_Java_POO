@@ -24,3 +24,4 @@ public class Produto {
         System.out.println("PREÇO DO PRODUTO : " + produto.getPreco());
     }
 }
+
